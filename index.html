@@ -3,12 +3,95 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.prod.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" type="image/x-icon">
     <title>Dipta's Portofolio</title>
     <link rel="stylesheet" href="./css/style.css">
  </head>
  <body>
-    <header>
+    <nav>
+        <div class="logo-icon">
+            <img src="assets/profile.jpeg" alt="profile image">
+        </div>
 
-    </header>
+        <section>
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#our-facilities" class="nav-item">Our Facilities</a>
+            <a href="" class="nav-item">Achievement</a>
+            <a href="#message-us" class="nav-item">Message us</a>
+        </section>
+    </nav>
+    <hr>
+
+    <div class="container-home" id="home">
+        <div class="welcome">
+            <h2 id="change-name">Halo Dipta, Welcome to Website</h2>
+            <p>Ini adalah website latihan pertama</p>
+        </div>
+        <div class="welcome-img">
+            <img src="assets/welcome-img.png" alt="welcome-img">
+        </div>
+    </div>
+    <hr>
+
+    <div class="our-facilitation" id="our-facilities">
+        <h3>
+            <strong>Our Facilitation</strong>
+        </h3>
+        <div class="rounded-facilitation">
+            <div class="card">
+                <img src="https://cdn.prod.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" alt="fac1">
+                <p>Profesional teacher</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.prod.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" alt="fac2">
+                <p>Sport field</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn.prod.website-files.com/61af164800e38c4f53c60b4e/61af164800e38c11efc60b6d_RevoU.svg" alt="fac3"> 
+                <p>Classroom</p>
+            </div>  
+        </div>
+    </div>
+    <hr>
+
+    <div class="message-us" id="message-us">
+        <div class="double-table">
+            <h2>Message Us</h2>
+            <form action="" id="message-form">
+                <div class="table">
+                    <label for="">Nama          :</label>
+                    <input type="text" id="nama" placeholder="Nama"><br>
+                </div>
+                <div class="table">
+                    <label for="">Tanggal Lahir :</label>
+                    <input type="date" id="tanggal-lahir"><br>
+                </div>
+                <div class="table">
+                    <label for="">Jenis Kelamin :</label>
+                    <input type="radio" name="jenis-kelamin" value="laki-laki">Laki-laki
+                    <input type="radio" name="jenis-kelamin" value="perempuan">Perempuan
+                </div>
+                <div class="table">
+                    <label for="">Pesan         :</label>
+                    <textarea name="pesan" id="pesan-pengguna"></textarea>
+                </div>        
+                <button  type="submit"  class="btn">
+                    Submit
+                </button>    
+            </form>
+        </div>
+        <div class="double-table">
+            <div class="kolom-data" id="kolom-data">
+        
+            </div>
+        </div>
+        
+    </div>
+    <hr>
+    <footer>
+        <p>Created By Dipta</p>
+    </footer>
+
+    <script src="js/index.js"></script>
  </body>
  </html>

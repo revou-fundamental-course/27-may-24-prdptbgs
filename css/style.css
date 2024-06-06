@@ -1,0 +1,159 @@
+nav{
+    display: flex;
+    height: 50px;
+}
+
+.logo-icon{    
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.logo-icon img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+section > a{
+    border: 1px solid black;
+    padding: 5px 5px 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    display: flex;
+    margin-left: 800px;
+}
+
+.welcome-img img{
+    width: 1100px;
+    height: 578px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.our-facilitation, .message-us, .container-home{
+    margin-left: 80px;
+}
+
+.rounded-facilitation{
+    margin-left: 40px;
+    display: flex;
+}
+
+.card p{
+    text-align: center;
+}
+
+.card img {
+    margin-top: 50px;
+    width: 180px;
+    height: 180px;
+    margin: 0 40px;
+    border-radius: 50%;
+}
+
+.message-us{
+    display: flex;
+}
+
+.double-table{
+    display: table;
+    padding-bottom: 50px;
+    flex: 50%;
+}
+
+
+.double .table{
+    display: table-row;
+}
+
+.table label, .table input{
+    display: table-cell;
+}
+
+.table input[type="text"],
+.table input[type="date"],
+.table textarea {
+    /* width: calc(100% - 10px);  */
+    width: 275px;
+}
+
+.table input[type="text"],
+.table input[type="date"],
+.table input[type ="radio"] {
+    margin-bottom: 10px;
+}
+
+.btn{
+    background: whitesmoke;
+    margin-top: 10px;
+    width: 280px;
+}
+
+
+
+.kolom-data{
+    margin-top: 25px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+footer p{
+    text-align: end;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        max-width: 375px;
+    }
+
+    section{
+        margin-left: 20px;
+    }
+
+    .our-facilitation, .message-us, .container-home{
+        margin-left: 20px;
+    }
+    
+    .welcome-img img{
+        width: 300px;
+        height: 170px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .rounded-facilitation{
+        margin-left: 0%;
+        display: block;
+    }
+
+    .card img {
+        margin-top: 25px;
+        width: 90px;
+        height: 90px;
+        margin-left: 120px;
+        border-radius: 50%;
+    }
+
+    .card p{
+        text-align: center;
+    }
+    .message-us{
+        display: block;
+    }
+    .kolom-data{
+        margin-top: 25px;
+        height: 300px;
+        width: 300px;
+        border: 1px solid black;
+    }
+    
+
+
+    
+}
